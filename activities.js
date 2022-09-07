@@ -18,16 +18,18 @@
 
 // // ************** Activity 5 - Random number 1 and 30 **************  - ?????????????????? 
 
-// let arr = [];
-// while(arr.length < 6){
-//     let r = Math.floor(Math.random() * 30) + 1;
-//     if(arr.indexOf(r) === -1) arr.push(r);{
+// let num = 0
+
+// for (let i = 0; i < 6; i++){
+//     if (i <= 6){
+//         num = Math.ceil(Math.random()*30)
+//         if (num % 7 == 0){
+//             console.log(`${num} is divisible by 7`)
+//         }
+//         else{
+//             console.log(`${num} is not divisible by 7`)
+//         }
 //     }
-// }
-// if(arr % 7 == 0){
-//     console.log(`${arr} divisible by 7`)
-// }else{
-//     console.log(`${arr} not divisible by 7`)
 // }
 
 // // ********************************************************************
